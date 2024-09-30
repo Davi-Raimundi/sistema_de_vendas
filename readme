@@ -1,0 +1,35 @@
+# Sistema de Vendas
+
+Este projeto implementa um sistema de vendas simples usando SQL. Ele inclui as tabelas `clientes`, `produtos` e `vendas` para gerenciar informações sobre clientes, produtos e transações de vendas.
+
+## Estrutura do Banco de Dados
+
+- **clientes**
+  - `id_cliente`: Identificador único do cliente.
+  - `nome`: Nome do cliente.
+  - `email`: E-mail do cliente.
+  - `telefone`: Telefone do cliente.
+
+- **produtos**
+  - `id_produto`: Identificador único do produto.
+  - `nome`: Nome do produto.
+  - `preco`: Preço do produto.
+  - `quantidade_estoque`: Quantidade disponível em estoque.
+
+- **vendas**
+  - `id_venda`: Identificador único da venda.
+  - `id_cliente`: ID do cliente que fez a compra.
+  - `id_produto`: ID do produto vendido.
+  - `quantidade`: Quantidade do produto vendido.
+  - `data_venda`: Data da venda.
+
+## Como Executar
+
+1. Clone este repositório.
+2. Execute o script SQL para criar o banco de dados e as tabelas.
+3. Insira os dados de exemplo.
+4. Utilize as consultas para interagir com os dados.
+
+## Licença
+
+Este projeto é licenciado sob a [MIT License](LICENSE).
