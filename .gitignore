@@ -1,0 +1,10 @@
+# Ignore database files
+*.sql
+*.db
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore environment files
+.env
